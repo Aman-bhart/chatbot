@@ -1,63 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>chatbot</title>
-    <style>
-      * {
-        font-family: sans-serif;
-        font-weight: lighter;
-        color: gray;
-      }
 
-      .box-layout {
-        border: 1px solid black;
-        width: 400px;
-        margin: auto;
-        padding: 40px;
-      }
+<head>
+  <title>chatbot</title>
+  <style>
+    * {
+      font-family: sans-serif;
+      color: rgba(0, 0, 0, 0.6);
+      font-weight: 300;
+      box-sizing: border-box;
+      margin: 0;
+    }
 
-      h1 {
-        /* font-weight: 300; */
-        font-size: 38px;
-      }
+    .box-layout>* {
+      margin-bottom: 20px;
+    }
 
-      .button {
-        background-color: rgba(0, 128, 255, 0.937);
-        width: 100%;
-        height: 40px;
-        text-align: center;
-        box-sizing: border-box;
-        padding: 7px;
-        color: white;
-        font-size: 20px;
-        text-transform: uppercase;
-        border-radius: 25px;
-      }
+    .box-layout {
+      border: 1px solid rgba(0, 0, 0, 0.242);
+      width: 500px;
+      margin: 10% auto;
+      padding: 40px;
+      box-sizing: border-box;
+      padding-top: 20px;
+    }
 
-      .intro {
-        font-size: 18px;
-        font-weight: lighter;
-        letter-spacing: 1px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="box-layout">
-      <h1>Build your first chatbot in 10 minutes!</h1>
+    .box-layout>h1 {
+      font-size: 38px;
+      color: rgba(0, 0, 0, 0.423);
+    }
 
-      <p style="border: 1px solid black; width: 40px"></p>
+    .box-layout>a {
+      display: block;
+      text-decoration: none;
+      background-color: #4184e1;
+      text-align: center;
+      padding: 8px;
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      border-radius: 30px;
+    }
 
-      <p class="intro">
-        Have a bot answering questions from customers on your website within 10
-        minutes of signing up for chatbot.
-      </p>
+    .intro {
+      font-size: 18px;
+      font-weight: lighter;
+      letter-spacing: 1px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.4);
+    }
 
-      <div class="button">try now →</div>
+    .tac {
+      color: rgba(0, 0, 0, 0.2);
+      font-weight: 100;
+      font-size: 15px;
+      margin-bottom: 0px;
+    }
 
-      <p class="terms">
-        By clicking try now you create an account and agree to our Terms and
-        Conditions and Privacy Policy.
-      </p>
+    .line {
+      border: 1px solid black;
+      width: 40px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <article class="box-layout">
+    <h1>Build your first chatbot in 10 minutes!</h1>
+
+    <div class="line"></div>
+
+    <p class="intro">
+      Have a bot answering questions from customers on your website within 10
+      minutes of signing up for ChatBot.
+    </p>
+
+    <a href="#">try now &rarr;</a>
+
+    <p class="tac">
+      By clicking try now you create an account and agree to our Terms and
+      Conditions and Privacy Policy.
+    </p>
     </div>
-  </body>
+</body>
+
 </html>
